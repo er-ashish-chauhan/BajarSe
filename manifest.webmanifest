@@ -1,0 +1,22 @@
+{
+  "name": "Nagad",
+  "short_name": "Nagad",
+  "start_url": ".",
+  "background_color": "#3367D6",
+  "description": "Nagad",
+  "display": "standalone",
+  "theme_color": "#3367D6",
+  "prefer_related_applications": true,
+  "icons": [
+    {
+      "src": "img/app_icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/app_icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

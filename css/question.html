@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+	<div class="goDescription" style="background:blue; padding: 20px; color:white; width:100px; margin-bottom: 5px;">
+
+    <input type="checkbox" name="" id="mycheck">
+	Description</div>
+   
+  <div class="myDescription" style="background:#f3eba3; padding: 10px; display: none">
+
+
+    <div class="back" style="background:red; padding: 10px; width:50px; ">Back</div>
+
+  	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+
+
+
+<script type="text/javascript">
+	
+   $('.goDescription').click(function(){
+   	$('.goDescription').hide();
+   	$('.myDescription').show();
+   })
+
+    $('.back').click(function(){
+    
+    $('.goDescription').show();
+   	$('.myDescription').hide();
+   })
+   
+
+   $('#mycheck').on('click change', function(e){
+   e.stopPropagation(); 
+   });
+
+
+
+</script>
+</body>
+</html>

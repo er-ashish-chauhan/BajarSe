@@ -1,0 +1,2538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>My Project</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+    </head>
+
+
+
+    <body class="gray-bg">
+         <!-- header -->
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="locationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Choose a Delivery Address</h5>
+        <button type="button" class="close opacity-1" data-dismiss="modal" aria-label="Close">
+          <img src="img/pop_cross.svg">
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="divider"></div>
+         <a href="add_new_address.html">
+                 <div class="app-section pl-22px mt-2px ">
+                   <img src="img/plus_border.svg " class="mt-5-neg">&nbsp;&nbsp;&nbsp;<span class=" font-weight-bold text-green f-16">Add New Address</span>
+                 </div>
+          </a>
+          <div class="divider"></div>
+
+          <div class="app-section pl-20px">
+            <div class="row no-gutters">
+                  <div class="col-1 my-auto">
+                    <img src="img/location_border.svg">&nbsp;&nbsp;&nbsp;
+                  </div>
+                  <div class="col-10">
+                     <span class="font-15 dark">Craig Park Layout</span>
+                   <div class="f-14">802, Craig Park Layout, Silverlake Terrace..</div>
+                   <div class="time">2 hrs</div>
+                  </div>
+                </div>
+          </div>
+
+         <div class="divider"></div>
+          <div class="app-section pl-20px" >
+            <div class="row no-gutters">
+                  <div class="col-1 my-auto">
+                    <img src="img/location_border.svg">&nbsp;&nbsp;&nbsp;
+                  </div>
+                  <div class="col-10">
+                     <span class="font-15 dark">Craig Park Layout</span>
+                   <div class="f-14">802, Craig Park Layout, Silverlake Terrace..</div>
+                   <div class="time">2 hrs</div>
+                  </div>
+                </div>
+          </div>
+           <div class="divider"></div>
+          <div class="app-section pl-20px">
+            <div class="row no-gutters">
+                  <div class="col-1 my-auto">
+                    <img src="img/location_border.svg">&nbsp;&nbsp;&nbsp;
+                  </div>
+                  <div class="col-10">
+                     <span class="font-15 dark">Craig Park Layout</span>
+                   <div class="f-14">802, Craig Park Layout, Silverlake Terrace..</div>
+                   <div class="time">2 hrs</div>
+                  </div>
+                </div>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+   
+
+  <div class="tab-content">
+    <div id="homePage" class=" tab-pane active">
+
+
+
+
+      <!-- catalog detail page -->
+
+      <div id="catalogdetailSection" style=" display: none ; padding-bottom: 100px;" >
+       <header>
+
+           <div class="header-upper">
+            <div class="row no-gutters">
+                <div class="col-12 f-20">
+                   <a  id="backCatelogTab"><img src="img/back.svg" > </a>Catalog Details
+               </div>
+              
+               </div>
+           </div>
+         
+       </header>
+
+
+       <!-- Offer info -->
+       <div  class="page-container ">
+       <div class="product-detail">
+          <div class="name">
+            <label>Catalog name</label>
+            <div class="value">Maggie Noodles</div>
+          </div>
+
+          <div class="product-info">
+                 <h4>catalog details</h4>
+            <p>Get 20% off on the Maggie 70gm pack. <br> Hurry offer is valid for limited time.</p>
+          </div>
+
+
+          <div class="last-date" style="display:none;">
+             Offer Valid till <b >18/05/2020</b>
+           </div>
+       </div>
+
+       </div>
+
+       <div class="page-container ">
+       <div class="secction-heading mt-3">Products in this Offer</div>
+       
+       <!-- product-list -->
+       <div class="product-list">
+          <div class="theme-card card-cd">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-2.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Pepsi Cold Drink</div>
+               <div class="offer-product-price"><del>Rs.60.00</del> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto pr-10px">
+             <a href="" class="btn-blue btn-block">Add To Cart</a>
+           </div>
+         </div>
+         </div>
+
+         <div class="theme-card card-cd">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-1.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Maggie Noodles</div>
+               <div class="offer-product-price"><del>Rs.8.00</del> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto pr-10px">
+             <a href="" class="btn-blue btn-block">Add To Cart</a>
+           </div>
+         </div>
+         </div>
+
+          <div class="theme-card card-cd">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-2.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Pepsi Cold Drink</div>
+               <div class="offer-product-price"><del>Rs.60.00</del> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto pr-10px">
+             <a href="" class="btn-blue btn-block">Add To Cart</a>
+           </div>
+         </div>
+         </div>
+
+         <div class="theme-card card-cd">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-1.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Maggie Noodles</div>
+               <div class="offer-product-price"><del>Rs.8.00</del> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto pr-10px">
+             <a href="" class="btn-blue btn-block">Add To Cart</a>
+           </div>
+         </div>
+         </div>
+
+
+        
+
+         
+       </div>
+
+       </div>
+
+       </div>
+   
+
+
+
+     
+
+    <!-- offer detail page -->
+
+      <div id="OfferdetailSection" style="display: none; padding-bottom: 100px;">
+       <header>
+
+           <div class="header-upper">
+            <div class="row no-gutters">
+                <div class="col-12 f-20">
+                   <a  id="backOfferTab"><img src="img/back.svg" ></a> Offer Details
+               </div>
+              
+               </div>
+           </div>
+         
+       </header>
+
+
+       <!-- Offer info -->
+       <div class="page-container">
+       <div class="product-detail">
+          <div class="name">
+            <label>Offer name</label>
+            <div class="value">Maggie Noodles</div>
+          </div>
+
+          <div class="product-info">
+                 <h4>Offer details</h4>
+            <p>Get 20% off on the Maggie 70gm pack. <br> Hurry offer is valid for limited time.</p>
+          </div>
+
+
+          <div class="last-date">
+             Offer Valid till <b >18/05/2020</b>
+           </div>
+       </div>
+       </div>
+
+       <div class="page-container ">
+       <div class="secction-heading mt-3">Products in this Offer</div>
+       
+       <!-- product-list -->
+       <div class="product-list">
+          <div class="theme-card">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-2.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Pepsi Cold Drink</div>
+               <div class="offer-product-price"><span class="outer"><span class="inner">Rs.60.00</span></span> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto pr-10px">
+             <a href="" class="btn-blue btn-block " >Add To Cart</a>
+
+           </div>
+         </div>
+         </div>
+
+         <div class="theme-card">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-1.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Maggie Noodles</div>
+               <div class="offer-product-price"><span class="outer"><span class="inner">Rs.60.00</span></span> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto  pr-10px">
+             <a href="" class="btn-blue btn-block ">Add To Cart</a>
+           </div>
+         </div>
+         </div>
+
+          <div class="theme-card">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-2.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Pepsi Cold Drink</div>
+               <div class="offer-product-price"><span class="outer"><span class="inner">Rs.60.00</span></span> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto pr-10px">
+             <a href="" class="btn-blue btn-block   ">Add To Cart</a>
+           </div>
+         </div>
+         </div>
+
+         <div class="theme-card">
+               <div class="row no-gutters">
+
+           <div class="col-2">
+             <img src="img/product-1.png" class="full-width">
+           </div>
+           <div class="col-6">
+               <div class="title">Maggie Noodles</div>
+               <div class="offer-product-price"><span class="outer"><span class="inner">Rs.60.00</span></span> <span class="price">Rs.48.00</span></div>
+               <div class="qty">200 ml Pepsi Can</div>
+           </div>
+           <div class="col-4 my-auto pr-10px">
+             <a href="" class="btn-blue btn-block  ">Add To Cart</a>
+           </div>
+         </div>
+         </div>
+       </div>
+
+       </div>
+</div>
+
+      
+      <!-- shop listing -->
+
+       <div id="productDetailSection" style="display: none; padding-bottom: 100px;">
+       <header>
+
+           <div class="header-upper">
+            <div class="row no-gutters">
+                <div class="col-12 f-20">
+                   <a  id="backProductTab"><img src="img/back.svg" ></a> Maggie Noodles
+               </div>
+              
+               </div>
+           </div>
+         
+       </header>
+
+<!-- product img -->
+
+<div class="product-img"> 
+  <img src="img/share_circle.png" class="share-circle">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div >
+        <img src="img/product-1.png" class="w-40">
+        <div>
+      </div>
+    </div>
+    <div>
+    <ul class="product-thumbnail">
+      <li class="active">
+        <a >
+          <img src="img/product-F.png">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="img/product-L.png">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="img/product-R.png">
+        </a>
+      </li>
+      <div style="clear:both"></div>
+
+    </ul>
+    </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="">
+<div class="product-detail text-left">
+  <div class="name">
+    <label>Product name</label>
+    <div class="value f-16">Maggie Noodles</div>
+  </div>
+
+  <div class="product-price">
+   <div ><span class="outer"><span class="inner">Rs.500</span></span></div>
+   <div class="price font-weight-bold">Rs.400</div>
+  </div>
+
+  <div class="product-info">
+    <h4>Product details</h4>
+    <p>Get 20% off on the Maggie 70gm pack. <br> Hurry offer is valid for limited time.</p>
+  </div>
+
+  <div class="last-date">
+    Offer Valid till <b >18/05/2020</b>
+  </div>
+  
+  <div class="row btn-area">
+  <div class="col-6 pr-5px" >
+     <div class="increase-product float-left" >
+       <span class="minus t-11" id="minus">-</span><span class="plus t-11" id="plus">+</span>
+      <input type="" name="" class="increase qtyProduct qty-padding" value="1" >
+     </div>
+  </div>
+  <div class="col-6 my-auto pl-5px" >
+    <a  class=" btn-blue btn-block add-cart-padding font-weight-bold">
+      Add TO Cart
+    </a>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+       <div id="ShopSection" style="display: none; padding-bottom: 100px;">
+       <header>
+
+           <div class="header-upper">
+            <div class="row no-gutters">
+                <div class="col-8 f-20">
+                   Shop Name
+               </div>
+                <div class="col-4 ">
+                   <div class="text-uppercase text-right ">
+                       <img src="img/share.svg" class="pr-10">
+                       <img src="img/call.svg" class="pr-10">
+                       <img src="img/whatsapp.svg" >
+                   </div>
+               </div>
+               </div>
+           </div>
+          <!-- shop-image -->
+          <div class="shop-image">
+           <img src="img/img-1.png" class="full-width">
+           </div>
+           
+
+           <div class="row no-gutters"> 
+            <div class="col-md-12">
+              <div class="search-box-container-2 ">
+              <img src="img/search.svg" class="input-icon-l mt-neg-1">
+                 <input type="text" name="" class="search-box" placeholder="Search Products Or Catalog for Offer">
+                  <img src="img/mic.svg" class="input-icon-r mt-neg-1">
+              </div>
+              </div>
+           </div>
+       </header>
+
+       
+
+
+<div class="">
+  <div class="shop-tabs">
+  
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs " role="tablist" >
+    <li class="nav-item ">
+      <a class="nav-link active" data-toggle="tab" href="#products">Products</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " data-toggle="tab" href="#offers">offers</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " data-toggle="tab" href="#catalogs">catalogs</a>
+    </li>
+  </ul>
+
+  
+
+  
+
+  <!-- Tab panes -->
+  <div class="tab-content mt-3">
+    <div id="products" class="container tab-pane active tab-container">
+        <a class="goProductDetail">
+       <div class="theme-card">
+        <div class="container">
+           <div class="row">
+             <div class="col-7">
+               <h3>Maggie Noodles</h3>
+               <b>Get 20% off on 70gm </b>
+               <div ><span class="outer"><span class="inner">Rs.500</span></span><span class="price">Rs.400</span></div>
+               <div class="row">
+                <div class="col-12 ">
+                <div class="mt-2">
+             <img src="img/share_liner.svg" class="float-left mt-2">
+             <div class="btn btn-border addQty ml-12" >Add</div>
+                  <div class="increase-product float-left" style="display: none;">
+                  <span class="minus" id="minus">-</span><span class="plus" id="plus">+</span>
+                  <input type="" name="" class="increase qtyProduct" value="1" >
+                 </div>
+
+
+
+
+                 <div class="clearfix"></div>
+           </div>
+           </div>
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-1.png">
+             </div>
+           </div>
+           </div>
+
+       </div>
+       </a>
+
+ <a class="goProductDetail">
+       <div class="theme-card">
+         <div class="container">
+           <div class="row">
+             <div class="col-7">
+               <h3>Pepsi Can</h3>
+               <b>Get 20% off on 200ml </b>
+               <div ><span class="outer"><span class="inner">Rs.500</span></span> <span class="price">Rs.400</span></div>
+                <div class="mt-2">
+             <img src="img/share_liner.svg" class="float-left mt-2">
+             <div class="btn btn-border addQty ml-12">Add</div>
+                <div class="increase-product float-left" style="display: none;">
+                  <span class="minus" id="minus">-</span><span class="plus" id="plus">+</span>
+                  <input type="" name="" class="increase qtyProduct" value="1" >
+                 </div>
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-2.png">
+             </div>
+           </div>
+         </div>
+
+       </div>
+     </a>
+ <a class="goProductDetail">
+       <div class="theme-card">
+         <div class="container">
+           <div class="row">
+             <div class="col-7">
+               <h3>Maggie Noodles</h3>
+               <b>Get 20% off on 70gm </b>
+               <div ><span class="outer"><span class="inner">Rs.500</span></span> <span class="price">Rs.400</span></div>
+                <div class="mt-2">
+             <img src="img/share_liner.svg" class="float-left mt-2">
+             <div class="btn btn-border addQty ml-12" >Add</div>
+                  <div class="increase-product float-left" style="display: none;">
+                  <span class="minus" id="minus">-</span><span class="plus" id="plus">+</span>
+                  <input type="" name="" class="increase qtyProduct" value="1" >
+                 </div>
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-1.png">
+             </div>
+           </div>
+         </div>
+
+       </div>
+     </a>
+    </div>
+    <div id="offers" class="container tab-pane  fade tab-container">
+
+
+      
+      
+      <div id="offersSection" > 
+      <img src="img/like_blank.svg" alt="like" class="like_blank likeThis" >
+    <div class="goOfferDetail" >
+       <div class="theme-card">
+         <div class="container">
+             <div class="row">
+               <div ></div>
+               <div class="col-7 pr-0">
+                 <h3>Maggie Noodlesssss</h3>
+                 <b>Get 20% off on 70gm </b>
+                 <div class="last-date">Offer End Date: 28-06-2020</div>
+                  <div>
+                <img src="img/share_liner.svg" class="float-left mt-2">
+               <a class="btn btn-border addQty ml-12"  style="display: none">Add</a>
+                    <div class="increase-product float-left" style="display: none;">
+                    <span class="minus" id="minus">-</span><span class="plus" id="plus">+</span>
+                    <input type="" name="" class="increase qtyProduct" value="1" >
+                   </div>
+             </div>
+               </div>
+               <div class="col-5">
+                 <img src="img/product-1.png" >
+               </div>
+             </div>
+           </div>
+
+         </div>
+
+         </div>
+     <img src="img/like_blank.svg" alt="like" class="like_blank likeThis" >  
+     <div class="goOfferDetail" >
+       <div class="theme-card">
+        <div class="container">
+           <div class="row">
+             
+             <div class="col-7 pr-0">
+               <h3>Maggie Noodles</h3>
+               <b>Get 20% off on 70gm </b>
+               <div class="last-date">Offer End Date: 28-06-2020</div>
+                <div>
+             <img src="img/share_liner.svg" class="float-left">
+             <a class="btn btn-border addQty ml-12" style="display: none">Add</a>
+                  <div class="increase-product float-left" style="display: none;">
+                  <span class="minus" id="minus">-</span><span class="plus" id="plus">+</span>
+                  <input type="" name="" class="increase qtyProduct" value="1" >
+                 </div>
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-1.png" >
+             </div>
+           </div>
+         </div>
+
+       </div>
+     </div>
+    
+    <img src="img/like_blank.svg" alt="like" class="like_blank">
+     <div class="goOfferDetail" >
+       <div class="theme-card">
+        <div class="container">
+           <div class="row">
+            
+             <div class="col-7 pr-0">
+               <h3>Maggie Noodles</h3>
+               <b>Get 20% off on 70gm </b>
+               <div class="last-date">Offer End Date: 28-06-2020</div>
+                <div>
+             <img src="img/share_liner.svg" class="float-left">
+             <a class="btn btn-border addQty ml-12" style="display: none">Add</a>
+                  <div class="increase-product float-left" style="display: none;">
+                  <span class="minus" id="minus">-</span><span class="plus" id="plus">+</span>
+                  <input type="" name="" class="increase qtyProduct" value="1" >
+                 </div>
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-1.png" >
+             </div>
+           </div>
+         </div>
+
+       </div>
+     </div>
+     
+       </div>
+    </div>
+    <div id="catalogs" class="container tab-pane fade tab-container">
+   
+   <div class="catalogSection">
+ <img src="img/like_blank.svg" alt="like" class="like_blank likeThis">
+   <a class="gocatalogDetail">
+     <div >
+      <div class="theme-card">
+        <div class="container">
+           <div class="row">
+            
+             <div class="col-7 pr-0">
+               <h3 class="f-16">Grocery Items</h3>
+               <b>Get 20% off on the Maggie 70gm pack. Hurry offer... </b>
+               <div class="qty-catalogs">60 Products</div>
+                <div>
+             <img src="img/share_liner.svg">
+             
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-1.png" >
+             </div>
+           </div>
+           </div>
+
+       </div>
+
+
+
+     </div>
+
+       </a>
+
+
+
+<img src="img/like_blank.svg" alt="like" class="like_blank likeThis">
+<a class="gocatalogDetail">
+   <div >
+        <div class="theme-card">
+           <div class="container">
+           <div class="row">
+             
+             <div class="col-7 pr-0">
+               <h3 class="f-16">Pepsi Cold Drink</h3>
+               <b>Get 20% off on the Maggie 70gm pack. Hurry offer... </b>
+               <div class="qty-catalogs">60 Products</div>
+                <div>
+             <img src="img/share_liner.svg">
+             
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-2.png" class="w-70">
+             </div>
+              </div>
+           </div>
+
+       </div>
+     </div>
+     </a> 
+
+ <img src="img/like_blank.svg" alt="like" class="like_blank likeThis">
+     <a class="gocatalogDetail">
+   <div >
+        <div class="theme-card">
+          <div class="container">
+           <div class="row">
+            
+             <div class="col-7 pr-0">
+               <h3 class="f-16">Pepsi Cold Drink</h3>
+               <b>Get 20% off on the Maggie 70gm pack. Hurry offer... </b>
+               <div class="qty-catalogs">60 Products</div>
+                <div>
+             <img src="img/share_liner.svg">
+             
+           </div>
+             </div>
+             <div class="col-5">
+               <img src="img/product-2.png" class="w-70">
+             </div>
+              </div>
+           </div>
+
+       </div>
+     </div>
+     </a> 
+
+     </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+    <!-- stores listing -->
+      <div id="storesList" >
+         <header id="pageHeader">
+
+           <div class="header-upper">
+            <div class="row no-gutters">
+                <div class="col-8 ">
+                   Nagad Stores
+               </div>
+                <div class="col-4 ">
+                   <div class="text-uppercase text-right ">
+                      <a href="notifications.html" > <img src="img/notification.svg" ></a>
+                   </div>
+               </div>
+               </div>
+           </div>
+           <div class="row no-gutters mt-9">
+               <div class="col-7">
+                   <div class="text-uppercase f-12"><img src="img/location.svg" class="mt-neg-5">&nbsp;&nbsp;
+                    <select class="header-dropdown">
+                      <option>HSR Layout, Banglore</option>
+                      <option>New Delhi</option>
+                      <option>Mumbai</option>
+                    </select></div>
+               </div>
+                <div class="col-5 align-self-center">
+                   <div class="text-uppercase f-10 text-right"><img src="img/change_location.svg">&nbsp;&nbsp;change location</div>
+               </div>
+           </div>
+
+           <div class="row no-gutters"> 
+            <div class="col-md-12">
+              <div class="search-box-container">
+               
+               <img src="img/search.svg" class="input-icon-l mt-neg-1">
+                 <input type="text" name="" class="search-box" placeholder="Search Products Or Catalog for Offer">
+                  <img src="img/mic.svg" class="input-icon-r">
+              </div>
+              </div>
+           </div>
+       </header>
+
+       <!-- banners -->
+        
+        <div class="banners-area">
+        
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/img-1.png" alt="Los Angeles" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/img-1.png" alt="Chicago" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/img-1.png" alt="New York" style="width:100%">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+</div>
+
+<!-- tabs -->
+<div class="app-container">
+
+  <div class="theme-tabs">
+  
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs container-85" role="tablist" >
+    <li class="nav-item br-right">
+      <a class="nav-link " data-toggle="tab" href="#home">all stores</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#menu1">favourites</a>
+    </li>
+  </ul>
+
+  <a href="nagad_stores_filter.html"><img src="img/filter.svg" class="filter"></a>
+
+  
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class=" tab-pane fade"><br>
+      <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0 ">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+
+       <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0 ">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+
+
+       <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0 ">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+
+
+       <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+    </div>
+    <div id="menu1" class=" tab-pane active"><br>
+     
+     <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4 my-auto">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+
+       <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4 my-auto">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+
+
+       <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4 my-auto">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+
+
+       <a class="goShop">
+        <div class="store-card ">
+
+            <div class="row no-gutters">
+              <img src="img/like.svg" alt="like" class="like">
+               <div class="col-4 my-auto">
+                 <img src="img/store.png" alt="store">
+                </div>
+                <div class="col-8 store-info">
+                  <h3>PotFul Mart</h3>
+                  <div class="store-info-inner">
+                  <div class="row no-gutters">
+                    <div class="col-6">
+                      <label>Shop Category</label>
+                      <div class="value">Grocery</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Shop Type</label>
+                      <div class="value">Retailer</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="row no-gutters ">
+                    <div class="col-6">
+                      <label>Min. Order</label>
+                      <div class="value">Rs.500.00</div>
+                    </div>
+                    <div class="col-6">
+                      <label>Distance</label>
+                      <div class="value">400 meter</div>
+                    </div>
+                    
+                  </div>
+                   
+                   <p class="orange f-12">Delivery Charges: Rs.70</p>
+
+
+
+                  </div>
+
+
+                </div>
+                
+
+
+            </div>
+             <div class="divider"></div>
+             <div class="row no-gutters f-12 p-8 gray-dark plr-0">
+               <div class="col-7 ">
+                 Payment mode: <b>Cash / Online</b>
+               </div>
+               <div class="col-5 ">
+                 Home Delivery <span class="green font-weight-bold">Available</span>
+               </div>
+             </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+    </div>
+    <div id="ordersPage" class="tab-pane">
+
+      <div  id='OrderdetailSection' style="display: none; padding-bottom: 100px;">
+       <header>
+
+           <div class="header-upper">
+            <div class="row no-gutters">
+                <div class="col-12 f-20">
+                   <a  id="backOrdersList"><img src="img/back.svg" ></a> Order Details
+               </div>
+              
+               </div>
+           </div>
+         
+       </header>
+
+
+       <!-- Order info -->
+
+        <div class="container">
+         <div class="">
+            <div class="order-info mt-3">
+              <div class="row">
+                <div class="col-6">
+                  <label>Order ID:</label>
+                  <div class="value">
+                    NA12345678
+                  </div>
+                </div>
+                 <div class="col-6">
+                  <label>Placed On:</label>
+                  <div class="value">
+                    16/03/2020
+                  </div>
+                </div>
+
+                 <div class="col-6 mt-3">
+                  <label>No. of Items</label>
+                  <div class="value">
+                    20
+                  </div>
+                </div>
+
+                <div class="col-6 mt-3">
+                  <label>Total Cost</label>
+                  <div class="value">
+                    Rs.5,000
+                  </div>
+                </div>
+
+                <div class="col-6 mt-3">
+                  <label>Payment Method</label>
+                  <div class="value">
+                    Cash on Delivery
+                  </div>
+                </div>
+
+                <div class="col-6 mt-3">
+                  <label>Contact Buyer</label>
+                  <div class="value">
+                    <img src="img/phone_call.svg">&nbsp;&nbsp;
+                    <img src="img/whatsapp.svg">
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+
+            <div class="section-heading mt-5">Order Items List</div>
+           
+           <div class="order-item-list">
+            <div class="store-card p-12px" >
+              <div class="row no-gutters">
+                 <div class="col-4">
+                   <img src="img/product-1.png" alt="store" class="w-70">
+                  </div>
+                  <div class="col-8 store-info mt-16">
+                    <div class="title">Maggie Noodles</div>
+                    <div class="item-detail">
+                           <div class="f-12">Units: <span class="f-14 font-weight-bold">02</span></div>
+                           <div class="f-12">Total Cost: <span class="f-14 font-weight-bold">Rs.24.00</span></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="store-card  p-12px" >
+              <div class="row no-gutters">
+                 <div class="col-4">
+                   <img src="img/product-2.png" alt="store" class="w-70">
+                  </div>
+                  <div class="col-8 store-info mt-16">
+                    <div class="title">Maggie Noodles</div>
+                    <div class="item-detail">
+                           <div class="f-12">Units: <span class="f-14 font-weight-bold">02</span></div>
+                           <div class="f-12">Total Cost: <span class="f-14 font-weight-bold">Rs.24.00</span></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+
+
+
+         </div>
+
+           <div class="">
+              <div class="app-section pt-20px">
+                <label>Additional Notes:</label>
+                <div class="value">Add 2 pack of 500gm Boost</div>
+              </div>
+           </div>
+               
+
+
+
+               </div>
+               <div>
+           <div class="divider"></div>
+
+             <div class="container">
+              <div class="app-section">
+                  <div class="dark f-16" id="ViewAdditionalbtn"><img src="img/plus.svg">&nbsp;View Additional Products</div>
+
+                 <div class="order-info mt-3" id="ViewAdditionalProducts" style="display:none;" >
+              <div class="row">
+                <div class="col-12">
+                  <label>Product Name</label>
+                  <div class="value f-14">
+                   Maggie Noodles
+                  </div>
+                </div>
+                 
+
+                 <div class="col-4 mt-2">
+                  <label>Total Qty.</label>
+                  <div class="value">
+                    20
+                  </div>
+                </div>
+
+                <div class="col-4 mt-2">
+                  <label>Total Cost</label>
+                  <div class="value">
+                    Rs.120
+                  </div>
+                </div>
+
+                <div class="col-4 mt-2">
+                  <label>Total Price</label>
+                  <div class="value">
+                    Rs.24,000
+                  </div>
+                </div>
+
+                
+
+
+              </div>
+            </div>
+                  </div>
+             </div>
+             </div>
+             <div >
+              <div class="divider"></div>
+            <div class="container" >
+              <div class="item-summary ">
+                <div class="dark f-16 pb-2">Cost Summary</div>
+                  <table class="f-14">
+                    <tr>
+                      <td>Goods Amount</td>
+                      <td><b>Rs.10,000</b></td>
+                    </tr>
+
+                     <tr>
+                      <td>Delivery Charges</td>
+                      <td><b>Rs.70</b></td>
+                    </tr>
+
+                    <tr>
+                      <td class="pb-0">Coupon Discount</td>
+                      <td class="pb-0"><b>Rs.500</b></td>
+                    </tr>
+                  </table>
+              </div>
+            </div>
+
+             <div class="divider"></div>
+
+              <div class="container" >
+              <div class="app-section-small"> 
+              <div class="row f-14 dark ">
+                <div class="col-6 ">Total Goods Amount</div>
+                <div class="col-6 text-right">Rs.9,770</div>
+                <div class="col-6 ">Addtional Items</div>
+                <div class="col-6 text-right">Rs.24,000</div>
+              </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="container" >
+              <div class="app-section-small"> 
+              <div class="row f-14 dark ">
+                <div class="col-6 ">Total Pay</div>
+                <div class="col-6 text-right">Rs.9,770</div>
+              </div>
+              </div>
+            </div>
+
+             <div class="divider"></div>
+
+              <div class="container" >
+              <div class="app-section-small"> 
+                  <div class="dark f-16">Delivery Address</div>
+                  <div class="address mt-2">
+                    C-304, Mantri Flora <br> 
+                    Bangalore, KA, 560102
+                  </div>
+              </div>
+               <div class="app-section-small pt-0"> 
+                 <div class="dark f-16">Order Status</div>
+                  <div class="status-completed ml-0"><span class="dot"></span>Completed</div>
+               </div>
+             
+            </div>
+
+            <div class="" style="display: none;">
+              <div class="app-section-small"> 
+                  <div class="dark f-16">Order Status</div>
+                  <div class="status-completed ml-0"><span class="dot"></span>Completed</div>
+              </div>
+            </div>
+            <div class="text-center">
+            <button class="btn btn-primary f-13">cancel order</button>
+            </div>
+            </div>
+           </div>
+
+       <div id="ordersList" style="padding-bottom: 100px;">
+       <header class="pb-0">
+        <div class="" style="width:100%; margin: auto; ">
+           <div class="row no-gutters">
+               <div class="col-12 f-20">
+                   Orders
+               </div>
+                
+           </div>
+
+             <div class="row no-gutters"> 
+            <div class="col-md-12">
+              <div class="search-box-container-2 mt-3">
+              
+               <img src="img/search.svg" class="input-icon-l mt-neg-1 t-25">
+                 <input type="text" name="" class="search-box" placeholder="Search Products Or Catalog for Offer">
+              <img src="img/mic.svg" class="input-icon-r mt-neg-1 t-25">
+              </div>
+              </div>
+           </div>
+
+           <div class="filters ">
+               <ul>
+                   <li >
+                       <a href="" class="active">ALL</a>
+                   </li>
+                   <li>
+                       <a href="">pending</a>
+                   </li>
+                   <li>
+                       <a href="">Ready</a>
+                   </li>
+
+                    <li>
+                       <a href="">Completed</a>
+                   </li>
+
+                   <li>
+                       <a href="">Cancelled</a>
+                   </li>
+                  
+               </ul>
+           </div>
+
+           
+           </div>
+
+       </header>
+
+        <!-- mid-area -->
+    
+        <div class="page-container-92">
+        <div class="padding-none" >
+
+          <a class="goToOrders">
+            <div class="store-card ">
+
+          <div class="row no-gutters">
+           
+             <div class="col-3">
+               <img src="img/product-1.png" alt="store">
+              </div>
+              <div class="col-9 store-info pb-10px">
+                <h3>Urban Kirana</h3>
+                <div class="status-cancelled"><span class="dot"></span>Cancelled</div>
+                <div class="store-info-inner">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>Order ID:</label>
+                    <div class="value color-secondary">NA12345678</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Placed On:</label>
+                    <div class="value color-secondary">16/03/2020</div>
+                  </div>
+                  
+                </div>
+
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>No. of Items</label>
+                    <div class="value color-secondary">02</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Total Cost:</label>
+                    <div class="value color-secondary">Rs.5,000</div>
+                  </div>
+                  
+                </div>
+                 
+                 
+
+
+
+                </div>
+
+
+              </div>
+              
+
+
+          </div>
+          
+          
+      </div>
+      </a>
+
+ <a class="goToOrders">
+       <div class="store-card ">
+
+          <div class="row no-gutters">
+           
+             <div class="col-3">
+               <img src="img/product-2.png" alt="store">
+              </div>
+              <div class="col-9 store-info pb-10px">
+                <h3>Grofers</h3>
+                <div class="status-pending"><span class="dot"></span>Pending</div>
+                <div class="store-info-inner">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>Order ID:</label>
+                    <div class="value color-secondary">NA12345678</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Placed On:</label>
+                    <div class="value color-secondary">16/03/2020</div>
+                  </div>
+                  
+                </div>
+
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>No. of Items</label>
+                    <div class="value color-secondary">02</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Total Cost:</label>
+                    <div class="value color-secondary">Rs.5,000</div>
+                  </div>
+                  
+                </div>
+                 
+                 
+
+
+
+                </div>
+
+
+              </div>
+              
+
+
+          </div>
+          
+          
+      </div>
+       </a>
+
+        <a class="goToOrders">
+
+      <div class="store-card ">
+
+          <div class="row no-gutters">
+           
+             <div class="col-3">
+               <img src="img/product-1.png" alt="store">
+              </div>
+              <div class="col-9 store-info pb-10px">
+                <h3>Urban Kirana</h3>
+                <div class="status-completed"><span class="dot"></span>Completed</div>
+                <div class="store-info-inner">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>Order ID:</label>
+                    <div class="value color-secondary">NA12345678</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Placed On:</label>
+                    <div class="value color-secondary">16/03/2020</div>
+                  </div>
+                  
+                </div>
+
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>No. of Items</label>
+                    <div class="value color-secondary">02</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Total Cost:</label>
+                    <div class="value color-secondary">Rs.5,000</div>
+                  </div>
+                  
+                </div>
+                 
+                 
+
+
+
+                </div>
+
+
+              </div>
+              
+
+
+          </div>
+          
+          
+      </div>
+
+    </a>
+
+
+ <a class="goToOrders">
+       <div class="store-card ">
+
+          <div class="row no-gutters">
+           
+             <div class="col-3">
+               <img src="img/product-2.png" alt="store">
+              </div>
+              <div class="col-9 store-info pb-10px">
+                <h3>Grofers</h3>
+                <div class="status-pending"><span class="dot"></span>Pending</div>
+                <div class="store-info-inner">
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>Order ID:</label>
+                    <div class="value color-secondary">NA12345678</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Placed On:</label>
+                    <div class="value color-secondary">16/03/2020</div>
+                  </div>
+                  
+                </div>
+
+                <div class="row no-gutters">
+                  <div class="col-6">
+                    <label>No. of Items</label>
+                    <div class="value color-secondary">02</div>
+                  </div>
+                  <div class="col-6">
+                    <label>Total Cost:</label>
+                    <div class="value color-secondary">Rs.5,000</div>
+                  </div>
+                  
+                </div>
+                 
+                 
+
+
+
+                </div>
+
+
+              </div>
+              
+
+
+          </div>
+          
+          
+      </div>
+    </a>
+        </div>
+        </div>
+    </div>
+    </div>
+
+     
+     <div id="khataPage" class="tab-pane"  >
+
+
+      <div id="noContactDelivery" style=" display: none; padding-bottom: 100px;">
+       <header>
+           <div class="row no-gutters">
+               <div class="col-12 f-20">
+                   <a id="backNCD"><img src="img/back.svg"></a>&nbsp;&nbsp;No Contact Delivery
+               </div>
+           </div>
+       </header>
+
+        <!-- mid-area -->
+    
+        
+         <!-- Banner -->
+
+         <img src="img/delivery.png" class="full-width">
+
+         <div class="container-fluid">
+          <div class="f-18 dark mt-3">How it works:</div>
+          <div class="row mt-3">
+           <div class="col-3 text-center"><img src="img/mob.svg" style="width: 75%;"></div>
+           <div class="col-9 pl-0">
+             <div class="f-16 dark l-18">Select ‘No Contact Delivery’ at your cart checkout.</div>
+             <div class="orange f-12 mt-1">* Not applicable on COD Orders</div>
+           </div>
+         </div>
+
+         <div class="row mt-4">
+           <div class="col-3 text-center"><img src="img/gate.svg" class="full-width"></div>
+           <div class="col-9 pl-0">
+             <div class="f-16 dark l-18">Your Delivery partner will leave your order at the door and call you to confirm the same.</div>
+              
+           </div>
+         </div>
+
+         <div class="mt-35px">
+           <img src="img/thumbs_up.svg">&nbsp;&nbsp;<span class="f-12 maroon mt-2 block">Your order is safe for pickup at your convenience!</span>
+         </div>
+
+         </div>
+
+         </div>
+
+    <!-- offers and Coupon page -->
+     <div id="offersCouponSection" style=" display: none; padding-bottom: 100px;">
+       <header>
+           <div class="row">
+               <div class="col-12 f-20">
+                  <a href="nagad_stores.html"><img src="img/back.svg"></a>&nbsp;&nbsp;Offers & Coupons
+               </div>
+                
+           </div>
+
+             <div class="row no-gutters"> 
+            <div class="col-md-12">
+              <div class="search-box-container">
+               
+                  <img src="img/search.svg" class="input-icon-l mt-neg-1">
+                 <input type="text" name="" class="search-box" placeholder="Search the Offers / Coupon Code">
+                  
+                  
+              </div>
+              </div>
+           </div>
+           
+       </header>
+
+        <!-- mid-area -->
+    
+        
+        <div class="page-container"> 
+          
+          <div class="coupon-card">
+            <div class="row">
+              <div class="col-5 pr-0">
+                 <div class="coupon f-14">
+                     NAGD235689
+                    </div>
+              </div>
+              <div class="col-6 pl-10px my-auto">
+                 <img src="img/applycode_icon_unselect.svg" class="applyCode">
+              </div>
+            </div>
+            <div class="f-14 dark mt-2">Get 15% discount on order above Rs.400</div>
+            <div class="contain-divider"></div>
+            <div class="f-13">Use code NAGD235689 and get 15% discount up to Rs.75 on order above Rs.400 </div>
+           
+          </div>
+             
+        </div>
+
+        <div class="divider"> </div>
+
+        <div class="page-container"> 
+          
+          <div class="coupon-card">
+            <div class="row">
+              <div class="col-5 pr-0">
+                 <div class="coupon f-14">
+                     NAGD235689
+                    </div>
+              </div>
+              <div class="col-6 pl-10px my-auto">
+                 <img src="img/applycode_icon_unselect.svg" class="applyCode">
+              </div>
+            </div>
+            <div class="f-14 dark mt-2">Get 15% discount on order above Rs.400</div>
+            <div class="contain-divider"></div>
+            <div class="f-13">Use code NAGD235689 and get 15% discount up to Rs.75 on order above Rs.400 </div>
+           
+          </div>
+             
+        </div>
+
+        <div class="divider"> </div>
+
+        <div class="page-container"> 
+          
+          <div class="coupon-card">
+            <div class="row">
+              <div class="col-5 pr-0">
+                 <div class="coupon f-14">
+                     NAGD235689
+                    </div>
+              </div>
+              <div class="col-6 pl-10px my-auto">
+                 <img src="img/applycode_icon_unselect.svg" class="applyCode">
+              </div>
+            </div>
+            <div class="f-14 dark mt-2">Get 15% discount on order above Rs.400</div>
+            <div class="contain-divider"></div>
+            <div class="f-13">Use code NAGD235689 and get 15% discount up to Rs.75 on order above Rs.400 </div>
+           
+          </div>
+             
+        </div>
+
+        </div>
+
+
+
+
+
+
+   <div style="" id="cartSection">
+
+    <header class="p-20px">
+
+           <div class="product-details">
+             <div class="row no-gutters">
+               <div class="col-3">
+                 <img src="img/store.png" class="full-width">
+               </div>
+
+                <div class="col-9 pl-3 my-auto">
+                 <div class="dark f-18">
+                   Food Panda
+                 </div>
+                 <div class="f-12">Sarjapura Road</div>
+               </div>
+             </div>
+             <div class="row no-gutters mt-3">
+               <div class="col-5">
+                 <div class="dark f-16">Maggie Noodles</div>
+                 <div class="f-12">10 pieces</div>
+               </div>
+               <div class="col-4">
+                <div class="increase-product float-left w-90px" >
+                  <span class="minus f-25" id="minus">-</span><span class="plus f-25" id="plus">+</span>
+                  <input type="text" class="increase qtyProduct no-border p-8px f-18 " value="10" >
+                </div>
+               </div>
+
+               <div class="col-3 f-16 text-center">
+                 <span class="outer ml-6-neg"><span class="inner-green">Rs.200</span></span>
+                  <div class="dark mt-5-neg">Rs.160</div>
+               </div>
+             </div>
+           </div>
+         
+       </header>
+
+
+       <!-- mid part -->
+
+        <div class="page-container "  >
+          <a class="goNCD">
+          <div class="theme-card  mt-4 p-15-5">
+            <div class="row no-gutters">
+              <div class="col-2 text-center my-auto pl-15px">
+                <label class="checkcontainer">
+                       <input type="checkbox" >
+                       <span class="checkmark"></span>
+                </label>
+              </div>
+
+              <div class="col-9">
+                <div class="f-16 text-green font-weight-bold" >No-Contact Delivery</div>
+             <div class="f-12">Thank you for opting-in. Our delivery excecutive 
+            will call you before leaving the order at your door.
+             
+          </div>
+              </div>
+
+              <div class="col-1 my-auto">
+                <img src="img/left-arrow.svg" class="float-right m-10-6">
+              </div>
+            </div>
+          </div>
+           
+           </a>
+          <div class="theme-card card-padding">
+             <div class="f-16 text-green font-weight-bold" id="OffersCoupons"><img src="img/percent.svg" class="ml-10px">&nbsp;<span class="ml-10px">Avail Offers / Coupons </span> <img src="img/left-arrow.svg" class="float-right m-10-6"></div>
+          </div>
+         
+
+          
+          
+          <div class="app-section-20 pb-18">
+            <div class="section-heading-8">Store Bill</div>
+               <div class="f-14">
+                 <div class="float-left">Item Total</div>
+                 <div class="float-right font-weight-bold">Rs.160.00</div>
+                 <div class="clearfix"></div>
+               </div>
+          </div>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="page-container">
+          <div class="app-section-12">
+             <div class="f-14">
+                 <div class="float-left">Delivery Fee</div>
+                 <div class="float-right font-weight-bold">Rs.70</div>
+                 <div class="clearfix"></div>
+                 <div class="float-left mt-2">Coupon Discount</div>
+                 <div class="float-right font-weight-bold mt-2">Rs.50</div>
+                  <div class="clearfix"></div>
+               </div>
+          </div>
+        </div> 
+
+        <div class="divider"></div> 
+
+         <div class="page-container">
+          <div class="app-section-12">
+             <div class="f-14">
+                 <div class="float-left dark ">To Pay</div>
+                 <div class="float-right dark">Rs.180.00</div>
+                 <div class="clearfix"></div>
+                 
+               </div>
+          </div>
+        </div> 
+
+        <div class="page-container mt-4">
+          <div class="theme-card padding-12-10">
+            <div class="row no-gutters">
+
+              <div class="col-9">
+                <div class="f-16 text-green font-weight-bold" >Delivery Address</div>
+             <div class="f-14">C-304, Mantri Flora <br>
+Bangalore, KA, 560102</div>
+
+ <div class="orange f-12 mt-1">Your order will delivered in 2 hours</div>
+              </div>
+
+               <div class="col-3 my-auto">
+                    <a class="btn-blue padding-6-14 f-10">Change</a>
+               </div>
+
+              
+            </div>
+          </div>
+
+          <div class="float-right text-uppercase dark f-10" data-toggle="modal" data-target="#locationModal"> <img src="img/plus_small.svg"> add new location</div>
+          
+          <div class="clearfix"></div>
+
+          <div class="section-heading mt-3 ">
+            Delivery Mode
+          </div>
+            
+
+           <div class="dark f-14 ">
+              <input type="radio" name="" checked=""> Home Delivery &nbsp;&nbsp;
+              <input type="radio" name=""> Pickup
+          </div>
+
+           <div class="section-heading mt-4">
+            Additional Notes
+          </div>
+
+          <textarea class="form-control no-border h-90 no-box-shadow notes-box" placeholder="Enter the additional notes here"></textarea>
+
+          
+        </div>
+        <div class="yellow-note mt-35px" >
+            Minimum order value for this shop is Rs.300.00
+          </div>
+         
+         <div class="page-container">
+          <div class="row no-gutters mt-4">
+            <div class="col-6">
+              <div class="f-14 dark">Rs.180.00</div>
+              <div class="text-green text-uppercase f-10 font-weight-bold">view detailed bill</div>
+              </div>
+               <div class="col-6">
+                <a href='payments.html' class="btn btn-blue btn-block font-weight-bold"> make payment</a>
+               </div>
+            </div>
+          </div>
+          <br><br><br><br>
+    </div>
+
+    </div>
+    <div id="menuPage" class="tab-pane ">
+
+      <!-- profile page -->
+
+       <div id="profileSection" style="display: none; ">
+       <header>
+           <div class="row no-gutters">
+               <div class="col-12">
+                   <a  id="backProfile"><img src="img/back.svg"></a>&nbsp;Profile
+               </div>
+                
+           </div>
+       </header>
+
+        <!-- mid-area -->
+    
+        
+        <div class="page-container"> 
+             <div class="profile f-14">
+               <div class="row ">
+                 <div class="col-12 mt-3">
+                   <label >customer name</label>
+                   <div class="value">Soham Luthra</div>
+                 </div>
+
+                 <div class="col-12 mt-3">
+                   <label >Mobile number</label>
+                   <div class="value">9865321452</div>
+                 </div>
+
+                  <div class="col-12 mt-3">
+                   <label >Address</label>
+                   <div class="value">689, Phase 1, Siddapura, Whitefield, Bengaluru, Karnataka 560066, India.</div>
+                 </div>
+               </div>
+             </div>
+
+             <a href="add_new_address.html">
+             <div class="text-green mt-3 f-14"><img src="img/plus_border.svg">&nbsp;&nbsp;Add More Address</div>
+             </a>
+
+             <div class="profile ">
+              <div class="row  ">
+                <div class="col-5 mt-3">
+                   <label >referral code</label>
+                   <div class="value-big">NAGD326598</div>
+                 </div>
+                 <div class="col-7 mt-3">
+                   <label >&nbsp;</label>
+                   <div class=" text-uppercase gray f-11 font-weight-bold"><img src="img/share_gray.png">&nbsp;&nbsp;share referral code </div>
+                 </div>
+              </div>
+            </div>
+
+
+
+        </div>
+        </div>
+        
+        <!-- support page -->
+
+         <div id="supportSection" style="display: none;">
+       <header>
+           <div class="row no-gutters">
+                <div class="col-12 f-20 ">
+                   <a  id="backSupport"><img src="img/back.svg"></a>&nbsp;Support
+               </div>
+                <div class="col-4 ">
+                   
+               </div>
+               </div>
+       </header>
+
+        <!-- mid-area -->
+
+        <div class="page-container mt-5 ">
+           <div class="f-14 dark">Call us or chat with us if you have any feedback or any new feature request.</div>
+
+           <div class="support-card mt-4">
+             <div class="row no-gutters">
+               <div class="col-2 my-auto">
+                 <img src="img/calling.svg">
+               </div>
+               <div class="col-8 my-auto">
+                 <div class="dark f-20">Call Us</div>
+                 <div class="f-12">Office Timing: 10:00 AM - 7:00 PM</div>
+               </div>
+               <div class="col-2 my-auto text-right">
+                 <img src="img/arrow.svg"  >
+               </div>
+             </div>
+           </div>
+
+           <div class="support-card padding30-18">
+             <div class="row no-gutters">
+               <div class="col-2 my-auto">
+                 <img src="img/messages.svg">
+               </div>
+               <div class="col-8 my-auto">
+                 <div class="dark f-20">Chat with Us</div>
+                
+               </div>
+               <div class="col-2 my-auto text-right">
+                 <img src="img/arrow.svg"  >
+               </div>
+             </div>
+           </div>
+        </div>
+       </div>
+
+
+       <!-- how to use section -->
+
+
+       <div id="htuSection" style="display: none;">
+       <header >
+           <div class="row">
+               <div class="col-12">
+                   <a id="backHTU"><img src="img/back.svg"></a>&nbsp;&nbsp;How to Use
+               </div>
+                
+           </div>
+
+             <div class="row no-gutters"> 
+            <div class="col-md-12">
+              <div class="search-box-container">
+                  <img src="img/search.svg" class="input-icon-l mt-neg-1">
+                    <input type="text" name="" class="search-box" placeholder="Search Video here">
+                  <img src="img/mic.svg" class="input-icon-r mt-neg-1">
+              </div>
+              </div>
+           </div>
+           
+       </header>
+
+        <!-- mid-area -->
+    
+        
+        <div class="page-container"> 
+             <div class="count f-14 mt-3"> 23 Videos</div>
+
+             <div class="row mb-1 ">
+               <div class="col-6 pl-9">
+                 <img src="img/video.png" >
+               </div>
+               <div class="col-6 my-auto pl-0">
+                 <div class="f-14"> Add New Customer <br> in Nagad App</div>
+                 <div class="f-12 gray">Nagad App</div>
+               </div>
+             </div>
+
+             <div class="row mb-1">
+               <div class="col-6 pl-9">
+                 <img src="img/video.png" >
+               </div>
+               <div class="col-6 my-auto pl-0">
+                 <div class="f-14"> Add New Transaction <br>in Nagad App  </div>
+                 <div class="f-12 gray">Nagad App</div>
+               </div>
+             </div>
+
+             <div class="row mb-1">
+               <div class="col-6 pl-9">
+                 <img src="img/video.png" >
+               </div>
+               <div class="col-6 my-auto pl-0">
+                 <div class="f-14"> Add New Customer <br>in Nagad App</div>
+                 <div class="f-12 gray">Nagad App</div>
+               </div>
+             </div>
+
+             <div class="row mb-1">
+               <div class="col-6 pl-9">
+                 <img src="img/video.png" >
+               </div>
+               <div class="col-6 my-auto pl-0">
+                 <div class="f-14"> Add Payment Method <br>in Nagad App  </div>
+                 <div class="f-12 gray">Nagad App</div>
+               </div>
+             </div>
+
+
+             <div class="row mb-1">
+               <div class="col-6 pl-9">
+                 <img src="img/video.png" >
+               </div>
+               <div class="col-6 my-auto pl-0">
+                 <div class="f-14"> How to Create and 
+Share Buisness Card</div>
+                 <div class="f-12 gray">Nagad App</div>
+               </div>
+             </div>
+        </div>
+
+        </div>
+
+    <div style="" id="menuList">
+     <header>
+      <div class="page-container">
+           <div class="row no-gutters">
+                <div class="col-8 f-20">
+                   Menu Settings
+               </div>
+                <div class="col-4 ">
+                   <div class="text-uppercase text-right ">
+                       <img src="img/a.svg" >
+                   </div>
+               </div>
+               </div>
+               </div>
+       </header>
+
+        <!-- mid-area -->
+
+        <div class="page-container-92 mt-3 ">
+           <div>
+               <ul class="list-group list-group-flush  f-14">
+                  <li class="list-group-item " id="goProfile"><a ><img src="img/profile.svg" class="mr-3">Profile</a></li>
+                  <li class="list-group-item" id="goSupport"><a ><img src="img/support.svg" class="mr-3">Support</a></li>
+                  <li class="list-group-item" id="goHTU"><a><img src="img/howtouse.svg" class="mr-3">How To Use</a></li>
+                  <li class="list-group-item" ><a href="notifications.html"><img src="img/notifications.svg" class="mr-3">Notification</a></li>
+                  <li class="list-group-item"><a href="nagad_stores.html"><img src="img/logout_2.svg" class="mr-3">Log Out</a></li>
+               </ul>
+           </div>
+        </div>
+
+        <div class="text-center bottom-tag" >
+          <img src="img/love_india.png">
+        </div>
+    </div>
+    </div>
+  </div>
+ 
+  <div class="footer-menu">
+  <ul class="nav nav-tabs " role="tablist" >
+    <li class="nav-item ">
+      <a class="nav-link footer-option" id="fo_1" data-toggle="tab" href="#homePage">
+        <img src="img/home.svg">
+      <div>Home</div>
+  </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link footer-option"  id="fo_2" data-toggle="tab" href="#ordersPage">
+        <img src="img/orders.svg">
+      <div>Orders</div></a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link footer-option" id="fo_3" data-toggle="tab" href="#khataPage">
+        <img src="img/cart.svg">
+        <div>Cart</div></a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link footer-option" id="fo_4" data-toggle="tab" href="#menuPage">
+      <img src="img/menu.svg">
+      <div>Settings</div></a>
+    </li>
+  </ul>
+  </div>
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+
+        
+
+       
+
+      
+
+     
+
+
+       
+
+
+        
+        
+        
+    
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript"></script>
+
+            <script type="text/javascript"> 
+
+
+          $(document).ready(function(){
+           
+           var pagename = getParameterByName('pagename'); // "lorem"
+           
+           if(pagename == 'notifications')
+             { 
+                $(".footer-options").removeClass('active');
+                $('#fo_4').addClass('active');
+                $(".tab-pane").removeClass('active');
+                $('#menuPage').addClass('active');
+                
+             }
+             
+          })
+          function getParameterByName(name, url) {
+          if (!url) url = window.location.href;
+          name = name.replace(/[\[\]]/g, '\\$&');
+          var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+              results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, ' '));
+         }
+        </script>
+
+
+
+
+
+    </body>
+</html>
